@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chronicle &middot; what has been happening &middot; GYR-O Pages</title>
+<meta name="description" content="A plain account of how gyro-sites.online has changed and why, newest first, so that anyone returning after a few weeks can pick the thread back up.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#FCFAF5">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+
+:root{--paper:#FCFAF5;--card:#F5F1E8;--ink:#1E1B16;--ink-mid:#4A443A;--rule:#DCD5C6;
+  --accent:#4C7A4E;--accentb:#B4372C;--gold:#C8992F;--done:#7FA981;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Source Serif 4",Georgia,serif;font-size:16.5px;line-height:1.62;}
+.wrap{max-width:900px;margin:0 auto;padding:0 24px 80px;}
+header{padding:34px 0 20px;border-bottom:2px solid var(--ink);}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--accentb);}
+h1{font-size:36px;margin:8px 0 0;font-weight:600;letter-spacing:-.012em;}
+.sub{color:var(--ink-mid);margin-top:10px;}
+h2{font-size:21px;margin:40px 0 2px;font-weight:600;display:flex;gap:.6em;align-items:baseline;}
+h2 .n{font-family:"IBM Plex Mono",monospace;color:var(--gold);font-size:.72em;flex:none;}
+h3{font-size:15px;font-family:"IBM Plex Mono",monospace;color:var(--accent);
+  margin:22px 0 2px;letter-spacing:.02em;}
+p{margin:9px 0 0;} p.hint{color:var(--ink-mid);font-size:15px;margin-top:4px;}
+
+p{margin:9px 0 0;} p.hint{color:var(--ink-mid);font-size:15px;margin-top:4px;}
+ul{margin:9px 0 0;padding-left:1.15rem;} li{margin:5px 0;}
+.mono{font-family:"IBM Plex Mono",monospace;font-size:.9em;}
+.verdict{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--accent);
+  border-radius:8px;padding:15px 18px;margin:20px 0 0;}
+.verdict b{color:var(--accent);}
+.warn{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--accentb);
+  border-radius:8px;padding:15px 18px;margin:20px 0 0;}
+.warn b{color:var(--accentb);}
+.holder{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-mid);margin:16px 0 0;}
+.holder b{color:var(--ink);}
+table{border-collapse:collapse;width:100%;margin:16px 0 0;font-size:15px;}
+th,td{text-align:left;vertical-align:top;padding:9px 12px;border-bottom:1px solid var(--rule);}
+th{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-mid);font-weight:500;border-bottom:1.5px solid var(--ink);}
+td:first-child{font-weight:600;width:11rem;}
+.src{font-size:14px;color:var(--ink-mid);margin-top:8px;}
+.src a{color:inherit;}
+a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule);}
+a:hover{border-bottom-color:var(--accent);}
+footer{margin-top:52px;padding-top:16px;border-top:1px solid var(--rule);
+  font-size:14px;color:var(--ink-mid);}
+@media (max-width:640px){
+  h1{font-size:29px;} table{font-size:14px;} th,td{padding:8px 7px;}
+  td:first-child{width:auto;}
+}
+@media print{.wrap{max-width:none;} a{border:0;}}
+
+h3{font-size:18px;font-family:"Source Serif 4",Georgia,serif;color:var(--ink);
+  font-weight:600;margin:30px 0 2px;letter-spacing:-.004em;}
+h2{margin-top:44px;}
+
+/* Wikipedia links: a light dotted underline, so they read as Wikipedia at a glance. Source-card buttons (.rlink) keep their box. 7 Nov 2026. */
+a[href*="wikipedia.org"]:not(.rlink){text-decoration:none;border-bottom:1px dotted rgba(110,104,94,.5);}
+a[href*="wikipedia.org"]:not(.rlink):hover{border-bottom-color:var(--accentb,#B4372C);}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Chronicle &middot; this site</div>
+  <h1>What has been happening</h1>
+  <p class="sub">A plain account of how this site has changed and why, newest first. It is kept so that anyone returning after a few weeks can pick the thread back up without reading a commit history. Each entry says what changed and what it was <em>for</em>; the machinery belongs in column C.</p>
+</header>
+
+<h2>Where it stands</h2>
+<div class="verdict">
+  <p><b>Replace this block each time the page is updated.</b> Three or four sentences on what this site is for and where it currently stands &mdash; not history. This is the part that earns the page: it is what a reader coming back after a month actually needs.</p>
+</div>
+
+<h2>What has been happening</h2>
+
+<h3>DATE &mdash; a short line saying what changed and why it mattered</h3>
+<p>As long as it deserves. Say what the change was <em>for</em>, in the site's own terms, rather than which file moved. A reader should finish the paragraph understanding the purpose better than before, not just the page.</p>
+
+<h3>DATE &mdash; an earlier one</h3>
+<p>Newest first, always. Old entries are never edited to look better; if something here turned out wrong, a later entry says so.</p>
+
+<h2>Still open</h2>
+<ul>
+  <li><b>Unresolved things go here.</b> On returning, this is usually the list that is wanted first.</li>
+</ul>
+
+<footer>
+  Chronicle &middot; this site &middot; covering DATE to DATE<br>
+  Written alongside the working log rather than from it: that log is about implementation, this page is about purpose.<br>
+  <span class="gyro-key" style="display:inline-block;font-size:1.2em;margin:.4em 0"><a href="https://gyro-sites.online/#colors" title="Why the colors?" style="color:inherit;text-underline-offset:2px">GYR-O</a>&nbsp;=<span aria-hidden="true" style="display:inline-block;width:.8em;height:.8em;border-radius:2px;vertical-align:-.06em;margin:0 .3em 0 .55em;background:#4c7a4e;-webkit-print-color-adjust:exact;print-color-adjust:exact"></span><b>G</b>reen &middot;<span aria-hidden="true" style="display:inline-block;width:.8em;height:.8em;border-radius:2px;vertical-align:-.06em;margin:0 .3em 0 .55em;background:#c9a227;-webkit-print-color-adjust:exact;print-color-adjust:exact"></span><b>Y</b>ellow &middot;<span aria-hidden="true" style="display:inline-block;width:.8em;height:.8em;border-radius:2px;vertical-align:-.06em;margin:0 .3em 0 .55em;background:#b4372c;-webkit-print-color-adjust:exact;print-color-adjust:exact"></span><b>R</b>ed &middot; <span style="white-space:nowrap">and sometimes<span aria-hidden="true" style="display:inline-block;width:.8em;height:.8em;border-radius:2px;vertical-align:-.06em;margin:0 .3em 0 .55em;background:#d2691e;-webkit-print-color-adjust:exact;print-color-adjust:exact"></span><a href="https://gyro-sites.online/auto-gyro.html" title="How a GYR-O site is built" style="color:inherit;text-underline-offset:2px"><b>O</b>range</a></span></span><br>
+  &copy; 2026 Walter Wilkinson, creator of the GYR-O website format. The underlying template is free for reuse, under the MIT license. View details: <a href="https://gyro-sites.online/legal.html">license and copyright</a>
+</footer>
+</div>
+</body>
+</html>

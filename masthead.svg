@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" role="img"
+     aria-label="Placeholder masthead graphic: three columns labeled A, B and C.">
+  <style>
+    .lbl{font-family:Georgia,serif;font-size:19px;fill:#FFFDFA}
+    .cap{font-family:Georgia,serif;font-size:15px;fill:#55504A}
+    @media (prefers-color-scheme:dark){ .cap{fill:#ADA599} }
+  </style>
+  <rect x="70"  y="60" width="160" height="300" rx="6" fill="#4C7A4E"/>
+  <rect x="260" y="60" width="160" height="300" rx="6" fill="#C8992F"/>
+  <rect x="450" y="60" width="160" height="300" rx="6" fill="#B4372C"/>
+  <text x="150" y="222" text-anchor="middle" class="lbl">A</text>
+  <text x="340" y="222" text-anchor="middle" class="lbl">B</text>
+  <text x="530" y="222" text-anchor="middle" class="lbl">C</text>
+  <text x="340" y="405" text-anchor="middle" class="cap">Replace this with the picture for your site.</text>
+</svg>
