@@ -8,4 +8,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://port-chicago.online/sitemap.xml
+Sitemap: https://__DOMAIN__/sitemap.xml
