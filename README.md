@@ -4,7 +4,7 @@ A website format built on three columns: **plain answers**, **previewed sources*
 and **full technical detail** — so three different visitors each get what they
 came for on one page, without wading through the other two.
 
-Live: **https://__DOMAIN__**
+Live: **https://port-chicago.online**
 
 ## Why
 
